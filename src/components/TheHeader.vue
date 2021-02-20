@@ -64,9 +64,9 @@
                   to="/" class="text-cyan-100 text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10">Home</router-link>
                 <router-link
                   exact
-                  to="/about"
+                  to="/my-profile"
                   class="text-cyan-100 text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
-                >About</router-link>
+                >My Profile</router-link>
               </nav>
             </div>
             <div class="px-12 lg:px-0">
