@@ -5,12 +5,7 @@
         class="relative flex flex-wrap items-center justify-center lg:justify-between"
       >
         <!-- Logo -->
-        <div class="absolute left-0 py-5 flex-shrink-0 lg:static">
-          <a href="#">
-            <span class="sr-only">Heffron IQ</span>
-            <img src="../assets/heffroniq.svg" class="w-52" />
-          </a>
-        </div>
+        <the-logo mobile="isMobile" />
 
         <!-- Right section on desktop -->
         <div class="hidden lg:ml-4 lg:flex lg:items-center lg:py-5 lg:pr-0.5">
@@ -391,6 +386,8 @@
 
 <script setup>
 import { ref } from "vue";
+import TheLogo from "./TheLogo.vue";
+
 const isMobile = ref(false);
 const openMenu = ref(false);
 </script>
