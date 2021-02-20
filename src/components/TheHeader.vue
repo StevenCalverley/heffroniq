@@ -263,7 +263,7 @@
               <div>
                 <img
                   class="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/workflow-mark-cyan-600.svg"
+                  src="../assets/IQ-Default.svg"
                   alt="Workflow"
                 />
               </div>
@@ -294,16 +294,22 @@
               </div>
             </div>
             <div class="mt-3 px-2 space-y-1">
-              <a
-                href="#"
+              <router-link
+                to="/"
+                exact-active-class="router-link-extact-active-mobile"
                 class="block rounded-md px-3 py-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800"
-                >Home</a
+                @click="isMobile = false"
               >
-              <a
-                href="#"
+                Home
+              </router-link>
+              <router-link
+                to="/my-profile"
+                exact-active-class="router-link-extact-active-mobile"
                 class="block rounded-md px-3 py-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800"
-                >Profile</a
+                @click="isMobile = false"
               >
+                Profile
+              </router-link>
               <a
                 href="#"
                 class="block rounded-md px-3 py-2 text-base text-gray-900 font-medium hover:bg-gray-100 hover:text-gray-800"
@@ -392,4 +398,8 @@ const isMobile = ref(false);
 const openMenu = ref(false);
 </script>
 
-<style></style>
+<style>
+.router-link-extact-active-mobile {
+  @apply text-gray-800;
+}
+</style>
