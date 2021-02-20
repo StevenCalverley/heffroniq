@@ -11,10 +11,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import TheHeader from './components/TheHeader.vue';
-
-const openMenu = ref(false)
 
 </script>
 

@@ -6,7 +6,7 @@
         <div class="absolute left-0 py-5 flex-shrink-0 lg:static">
           <a href="#">
             <span class="sr-only">Heffron IQ</span>
-            <img src="src/assets/heffroniq.svg" class="w-52" />
+            <img src="../assets/heffroniq.svg" class="w-52" />
           </a>
         </div>
 
@@ -189,6 +189,9 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+
+const openMenu = ref(false)
 
 </script>
 
