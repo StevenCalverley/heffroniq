@@ -50,7 +50,8 @@
                   </span>
                 </div>
                 <div class="mt-8">
-                  <h3 class="text-lg font-medium">
+                  <span class="bg-blue-50 px-2 py-1 text-blue-800 text-sm rounded">Fund</span>
+                  <h3 class="mt-1 text-lg font-medium">
                     <a href="#" class="focus:outline-none">
                       <!-- Extend touch target to entire panel -->
                       <span class="absolute inset-0" aria-hidden="true"></span>
@@ -79,7 +80,8 @@
                   </span>
                 </div>
                 <div class="mt-8">
-                  <h3 class="text-lg font-medium">
+                  <span class="bg-blue-50 px-2 py-1 text-blue-800 text-sm rounded">Fund</span>
+                  <h3 class="mt-1 text-lg font-medium">
                     <a href="#" class="focus:outline-none">
                       <!-- Extend touch target to entire panel -->
                       <span class="absolute inset-0" aria-hidden="true"></span>
@@ -107,7 +109,8 @@
                   </span>
                 </div>
                 <div class="mt-8">
-                  <h3 class="text-lg font-medium">
+                  <span class="bg-green-50 px-2 py-1 text-green-800 text-sm rounded">Education</span>
+                  <h3 class="mt-1 text-lg font-medium">
                     <a href="#" class="focus:outline-none">
                       <!-- Extend touch target to entire panel -->
                       <span class="absolute inset-0" aria-hidden="true"></span>
@@ -135,7 +138,8 @@
                   </span>
                 </div>
                 <div class="mt-8">
-                  <h3 class="text-lg font-medium">
+                  <span class="bg-green-50 px-2 py-1 text-green-800 text-sm rounded">Education</span>
+                  <h3 class="mt-1 text-lg font-medium">
                     <a href="#" class="focus:outline-none">
                       <!-- Extend touch target to entire panel -->
                       <span class="absolute inset-0" aria-hidden="true"></span>
@@ -163,7 +167,8 @@
                   </span>
                 </div>
                 <div class="mt-8">
-                  <h3 class="text-lg font-medium">
+                  <span class="bg-red-50 px-2 py-1 text-red-800 text-sm rounded">Teams</span>
+                  <h3 class="mt-1 text-lg font-medium">
                     <a href="#" class="focus:outline-none">
                       <!-- Extend touch target to entire panel -->
                       <span class="absolute inset-0" aria-hidden="true"></span>
@@ -193,7 +198,8 @@
                   </span>
                 </div>
                 <div class="mt-8">
-                  <h3 class="text-lg font-medium">
+                  <span class="bg-green-50 px-2 py-1 text-green-800 text-sm rounded">Education</span>
+                  <h3 class="mt-1 text-lg font-medium">
                     <a href="#" class="focus:outline-none">
                       <!-- Extend touch target to entire panel -->
                       <span class="absolute inset-0" aria-hidden="true"></span>
